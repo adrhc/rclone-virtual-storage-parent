@@ -23,6 +23,7 @@
 		<maven-compiler-plugin-version>3.13.0</maven-compiler-plugin-version>
 		<maven-surefire-failsafe-plugin-version>3.2.5</maven-surefire-failsafe-plugin-version>
 		<spring-cloud.version>2023.0.1</spring-cloud.version>
+		<spring-shell.version>3.2.4</spring-shell.version>
 		<adrhc-utilities.version>1.0-SNAPSHOT</adrhc-utilities.version>
 		<!--<lombok.version>1.18.36</lombok.version>-->
 	</properties>
@@ -58,6 +59,13 @@
 				<groupId>org.springframework.cloud</groupId>
 				<artifactId>spring-cloud-dependencies</artifactId>
 				<version>${spring-cloud.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework.shell</groupId>
+				<artifactId>spring-shell-dependencies</artifactId>
+				<version>${spring-shell.version}</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
