@@ -11,7 +11,7 @@
 # export PATH=$JAVA_HOME/bin:$PATH
 #
 # The above is replaced by .sdkmanrc!!! see it in the project's root.
-sdk env
+sdk env install
 
 # export MAVEN_OPTS="$MAVEN_OPTS --enable-preview"
 # export M2_HOME=$TOOLS/maven-3.3.9
