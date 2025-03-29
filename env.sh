@@ -1,4 +1,6 @@
 #!/bin/bash
+# printf "HOME: $HOME\nSDKMAN_DIR: $SDKMAN_DIR"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 
 # export JAVA_HOME=$TOOLS/jdk1.8.0_141
 # export JAVA_HOME=/usr/lib/jvm/java-8-oracle
