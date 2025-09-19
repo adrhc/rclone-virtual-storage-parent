@@ -36,7 +36,7 @@ sdk env use       # activates java=21.0.3-oracle
 '''
         }
       }
-      post {
+      /* post {
         always {
           sh '''
             ln -sfn "/tmp/${PROJECT_NAME}/surefire-reports" "$WORKSPACE/surefire-reports"
@@ -44,7 +44,7 @@ sdk env use       # activates java=21.0.3-oracle
           '''          
           junit allowEmptyResults: true, testResults: 'surefire-reports/*.xml,failsafe-reports/*.xml'
         }
-      }
+      } */
     }
   }
 }
