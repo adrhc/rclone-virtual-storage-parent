@@ -27,8 +27,8 @@
 		<spring-cloud.version>2025.0.2</spring-cloud.version>
 		<!-- https://github.com/spring-projects/spring-shell/wiki/Spring-Boot-compatibility -->
 		<spring-shell.version>3.4.2</spring-shell.version>
-		<spring-boot.version>${project.parent.version}</spring-boot.version>
-		<adrhc-utilities.version>25-3.5.14-SNAPSHOT</adrhc-utilities.version>
+		<spring-boot.version>3.5.14</spring-boot.version>
+		<adrhc-utilities.version>25-3.5.14</adrhc-utilities.version>
 		<!--<lombok.version>1.18.46</lombok.version>-->
 		<commons-text.version>1.15.0</commons-text.version>
 		<commons-collections4.version>4.5.0</commons-collections4.version>
