@@ -28,7 +28,7 @@
 		<!-- https://github.com/spring-projects/spring-shell/wiki/Spring-Boot-compatibility -->
 		<spring-shell.version>3.4.2</spring-shell.version>
 		<adrhc-utilities.version>1.0-SNAPSHOT</adrhc-utilities.version>
-		<!--<lombok.version>1.18.36</lombok.version>-->
+		<!--<lombok.version>1.18.46</lombok.version>-->
 		<commons-text.version>1.15.0</commons-text.version>
 		<commons-collections4.version>4.5.0</commons-collections4.version>
 	</properties>
