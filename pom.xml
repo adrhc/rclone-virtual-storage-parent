@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.2.4</version>
+		<version>3.5.14</version>
 		<relativePath/>
 		<!--  lookup parent from repository  -->
 	</parent>
@@ -23,11 +23,14 @@
 		<maven-compiler-plugin-version>3.13.0</maven-compiler-plugin-version>
 		<maven-surefire-failsafe-plugin-version>3.2.5</maven-surefire-failsafe-plugin-version>
 		<maven-jacoco-maven-plugin-version>0.8.13</maven-jacoco-maven-plugin-version>
-		<spring-cloud.version>2023.0.1</spring-cloud.version>
-		<spring-shell.version>3.2.4</spring-shell.version>
+		<!-- https://github.com/spring-cloud/spring-cloud-release/wiki/Supported-Versions#supported-releases -->
+		<spring-cloud.version>2025.0.2</spring-cloud.version>
+		<!-- https://github.com/spring-projects/spring-shell/wiki/Spring-Boot-compatibility -->
+		<spring-shell.version>3.4.2</spring-shell.version>
 		<adrhc-utilities.version>1.0-SNAPSHOT</adrhc-utilities.version>
 		<!--<lombok.version>1.18.36</lombok.version>-->
-		<commons-text.version>1.13.0</commons-text.version>
+		<commons-text.version>1.15.0</commons-text.version>
+		<commons-collections4.version>4.5.0</commons-collections4.version>
 	</properties>
 
 	<dependencies>
@@ -80,6 +83,12 @@
 				<groupId>org.apache.commons</groupId>
 				<artifactId>commons-text</artifactId>
 				<version>${commons-text.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.commons</groupId>
+				<artifactId>commons-collections4</artifactId>
+				<version>${commons-collections4.version}</version>
+				<scope>compile</scope>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
