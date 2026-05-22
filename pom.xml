@@ -32,6 +32,7 @@
 		<!--<lombok.version>1.18.46</lombok.version>-->
 		<commons-text.version>1.15.0</commons-text.version>
 		<commons-collections4.version>4.5.0</commons-collections4.version>
+		<aws.sdk.version>2.44.10</aws.sdk.version>
 	</properties>
 
 	<dependencies>
@@ -65,6 +66,13 @@
 				<groupId>org.springframework.cloud</groupId>
 				<artifactId>spring-cloud-dependencies</artifactId>
 				<version>${spring-cloud.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+			<dependency>
+				<groupId>software.amazon.awssdk</groupId>
+				<artifactId>bom</artifactId>
+				<version>${aws.sdk.version}</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
