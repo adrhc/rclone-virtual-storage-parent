@@ -89,6 +89,11 @@
 				<version>${adrhc-utilities.version}</version>
 			</dependency>
 			<dependency>
+				<groupId>ro.go.adrhc</groupId>
+				<artifactId>lucene-index</artifactId>
+				<version>${adrhc-utilities.version}</version>
+			</dependency>
+			<dependency>
 				<groupId>org.apache.commons</groupId>
 				<artifactId>commons-text</artifactId>
 				<version>${commons-text.version}</version>
