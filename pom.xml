@@ -29,6 +29,7 @@
 		<spring-shell.version>3.4.2</spring-shell.version>
 		<spring-boot.version>3.5.14</spring-boot.version>
 		<adrhc-utilities.version>25-3.5.14</adrhc-utilities.version>
+		<lucene-index.version>25-3.5.14</lucene-index.version>
 		<!--<lombok.version>1.18.46</lombok.version>-->
 		<commons-text.version>1.15.0</commons-text.version>
 		<commons-collections4.version>4.5.0</commons-collections4.version>
@@ -91,7 +92,7 @@
 			<dependency>
 				<groupId>ro.go.adrhc</groupId>
 				<artifactId>lucene-index</artifactId>
-				<version>${adrhc-utilities.version}</version>
+				<version>${lucene-index.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>org.apache.commons</groupId>
