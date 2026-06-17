@@ -11,7 +11,7 @@
 	<groupId>ro.go.adrhc</groupId>
 	<artifactId>rclone-virtual-storage-parent</artifactId>
 	<packaging>pom</packaging>
-	<version>25-${project.parent.version}</version>
+	<version>25-3.5.14</version>
 	<name>RClone Virtual Storage parent</name>
 
 	<properties>
@@ -34,6 +34,7 @@
 		<commons-text.version>1.15.0</commons-text.version>
 		<commons-collections4.version>4.5.0</commons-collections4.version>
 		<aws.sdk.version>2.44.10</aws.sdk.version>
+		<build-directory>/tmp/${project.artifactId}</build-directory>
 	</properties>
 
 	<dependencies>
@@ -109,7 +110,7 @@
 	</dependencyManagement>
 
 	<build>
-		<directory>/tmp/${project.artifactId}</directory>
+		<directory>${build-directory}</directory>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
